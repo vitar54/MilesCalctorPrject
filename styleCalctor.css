@@ -1,0 +1,157 @@
+﻿
+
+.inputTextStyle{
+    width: 520px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-size: large;
+    border-radius: 19px;
+    border-width: 0.3px;
+    border-color: #dbd7d7;
+}
+
+#txtGgle:hover {
+    box-shadow:  1.5px 1.5px 2px 2px #e2e1e6;
+    border-radius: 19px;
+    border-width: 1px;
+    border-color: #e2e1e6;
+}
+
+#txtGgle:focus {
+    border-color: #e2e1e6;
+    border-radius: 19px;
+    border-width: 1px;
+    outline: none;
+    padding: 16px;
+}
+
+#btnDoMath {
+  background-color: #111163;
+  color: #ffffff;
+  height: 43px;
+  width: 43px;
+  text-align:center;
+  font-family: Arial;
+  font-style: normal;
+  font-size: large;
+  vertical-align: text-bottom;
+}
+
+#btnClear {
+  box-shadow:  2px 2px 2px 2px #181038;
+    border-radius: 4px;
+    border-width: 0px;
+    border-color: #1d1930;
+    width: 70px;
+    height: 40px;
+}
+
+.butnStyle{
+    border-width: 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-size: medium;
+    border-radius: 4px;
+    background-color: #ddddff;
+    padding: 6px;
+    color: #222631;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: #d9dce6;
+    border-width: 1px;
+  }
+
+button:focus {
+    outline: none;
+}
+
+A:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.imgStyle{
+    margin: 5px;
+    height: 100px;
+    width: 250px;
+}
+
+h2 {
+  color: #0000ff;
+  display: flex;
+  justify-content: center;
+}
+
+.centered{
+  position: fixed;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 640px;
+  border-width: 0px;
+  background-color: #dddddd;
+}
+
+.divCntr{
+    display: flex;
+    justify-content: center;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.inpStyle {
+  margin: 10px;
+}
+
+.radioStyle {
+  border-width: 1px;
+  border-color: black;
+  margin: 20px;
+}
+
+#txtReslts {
+  margin: 10px;
+  background-color: #dddddd;
+  width: 350px;
+  font-family: Arial;
+  font-style: normal;
+  font-size: large;
+}
+
+  .footerLeft {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #dddddd;
+  }
+
+  .leftLink{
+    position: relative;
+      color: #333333;
+      margin: 4px;
+      text-decoration: none;
+      float: left;
+  }
+
+  .rightLink{
+    position: relative;
+      color: #333333;
+      margin: 6px;
+      text-decoration: none;
+      float: right;
+  }
+
+
+
+
+/*
+
+*/

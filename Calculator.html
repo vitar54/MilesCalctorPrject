@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styleCalctor.css">
+</head>
+<body>
+    <div id="centerScreen" class="centered">
+        <h2>Simple Calculator</h2>
+        <div id="inptNumbers" class="divCntr">
+            <label for="num1st" class="inpStyle">First number:</label>
+            <input type="number" id="num1st" name="firstinp" class="inpStyle">
+            <label for="num2nd" class="inpStyle">Second number:</label>
+            <input type="number" id="num2nd" name="secinput" class="inpStyle">
+        </div>
+        <div id="operSelector" class="divCntr">
+    <label for="add"> 
+        <input id="add" type="radio" name="operation" class="radioStyle" value="opadd" checked>Add 
+    </label> 
+    <label for="subtr"> 
+        <input id="subtr" type="radio" name="operation" class="radioStyle" value="opsub">Subtract 
+    </label> 
+    <label for="multpl"> 
+        <input id="multpl" type="radio" name="operation" class="radioStyle" value="opmult">Multiply 
+    </label> 
+    <label for="divide"> 
+        <input id="divide" type="radio" name="operation" class="radioStyle" value="opdiv">Divide 
+    </label> 
+
+        </div>
+        <div id="divButtons" class="divCntr">
+            <button id="btnDoMath" class="butnStyle">=</button>
+        
+            <button id="btnClear" class="butnStyle">Clear</button>
+        </div>
+        <div id="divResults" class="divCntr">
+            <label for="txtReslts" class="inpStyle"> </label>
+            <input type="text" id="txtReslts" name="results" placeholder="Results displayed here">
+        </div>
+    </div>
+</body>
+</html>
+
+    <!--Live Server comments
+    
+    
+    
+    -->
