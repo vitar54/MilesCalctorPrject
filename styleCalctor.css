@@ -110,7 +110,7 @@ h2 {
 }
 
 .radioStyle {
-  border-width: 1px;
+  border-width: 2px;
   border-color: black;
   margin: 20px;
 }
@@ -122,6 +122,19 @@ h2 {
   font-family: Arial;
   font-style: normal;
   font-size: large;
+}
+
+#btnDoMath:focus {
+  background-color: darkgreen;
+}
+
+input[type="radio"]:checked+label {
+  font-weight: bold;
+  background-color: violet !important;
+}
+
+input[type="radio"]:hover+label {
+  background-color: violet !important;
 }
 
   .footerLeft {
