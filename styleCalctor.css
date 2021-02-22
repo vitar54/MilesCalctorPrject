@@ -1,31 +1,17 @@
 ﻿
 
-
-#txtGgle:hover {
-    box-shadow:  1.5px 1.5px 2px 2px #e2e1e6;
-    border-radius: 19px;
-    border-width: 1px;
-    border-color: #e2e1e6;
-}
-
-#txtGgle:focus {
-    border-color: #e2e1e6;
-    border-radius: 19px;
-    border-width: 1px;
-    outline: none;
-    padding: 16px;
-}
-
 #btnDoMath {
   background-color: #111163;
   color: #ffffff;
   height: 43px;
-  width: 43px;
+  width: 48px;
   text-align:center;
   font-family: Arial;
   font-style: normal;
   font-size: large;
-  vertical-align: text-bottom;
+  vertical-align: middle;
+  margin: 15px;
+  border-radius: 4px;
 }
 
 #btnClear {
@@ -35,38 +21,10 @@
     border-color: #1d1930;
     width: 70px;
     height: 40px;
-}
-
-.butnStyle{
-    border-width: 0px;
+    margin: 15px;
     font-family: Arial;
     font-style: normal;
-    font-size: medium;
-    border-radius: 4px;
-    background-color: #ddddff;
-    padding: 6px;
-    color: #222631;
-    margin: 15px;
-}
-
-button:hover {
-    background-color: #d9dce6;
-    border-width: 1px;
-  }
-
-button:focus {
-    outline: none;
-}
-
-A:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.imgStyle{
-    margin: 5px;
-    height: 100px;
-    width: 250px;
+    font-size: large;
 }
 
 h2 {
@@ -80,7 +38,7 @@ h2 {
   top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 640px;
+  width: 690px;
   border-width: 0px;
   background-color: #dddddd;
 }
@@ -94,7 +52,7 @@ h2 {
 }
 
 .inpStyle {
-  margin: 2px;
+  margin: 8px;
   font-family: Arial;
   font-style: normal;
   font-size: medium;
@@ -104,8 +62,6 @@ h2 {
   border-width: 2px;
   border-color: black;
   margin: 20px;
-  position: relative;
-  visibility: visible;
   font-family: Arial;
   font-style: normal;
   font-size: large;
@@ -124,46 +80,11 @@ h2 {
   background-color: darkgreen;
 }
 
-input[type="radio"]:focus + label {
+input[type=radio]:checked + label {
   font-weight: bold;
   background-color: violet !important;
+  color: #dd1b4c;
 }
-
-input[type="radio"]:hover + label {
-  background-color: violet !important;
-}
-
-
-input[type='radio']:checked:after + label {
-  background-color:green;
-}
-
-  .footerLeft {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: #dddddd;
-  }
-
-  .leftLink{
-    position: relative;
-      color: #333333;
-      margin: 4px;
-      text-decoration: none;
-      float: left;
-  }
-
-  .rightLink{
-    position: relative;
-      color: #333333;
-      margin: 6px;
-      text-decoration: none;
-      float: right;
-  }
-
-
 
 
 /*
