@@ -76,11 +76,13 @@ h2 {
 
 #txtReslts {
   margin: 10px;
-  background-color: #fff;
-  width: 450px;
+  background-color: #dddddd;
+  border-width: 0px;
+  width: 550px;
   font-family: Arial;
   font-style: normal;
   font-size: x-large;
+  text-align: center;
 }
 
 #btnDoMath:focus {
