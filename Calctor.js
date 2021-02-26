@@ -3,11 +3,12 @@ function clearRes() {
     document.getElementById("num1st").value = "";
     document.getElementById("num2nd").value = "";
     document.getElementById("txtReslts").value = "";
+    document.getElementById("num1st").focus();
 }
 
 function Calculate() {
-    let first = document.getElementById("num1st").value;
-    let second = document.getElementById("num2nd").value;
+    let first = document.getElementById("num1st").valueAsNumber;
+    let second = document.getElementById("num2nd").valueAsNumber;
     if (first == "") {
         alert("Please enter first number");
         return;
@@ -17,31 +18,31 @@ function Calculate() {
         return;
     }
     // determine which operation to perform
-    let operType = "Division";
+    let operType = "Divide";
     if (document.getElementById("add").checked) {
-        operType = "Addition";
+        operType = "Add";
     } else if (document.getElementById("subtr").checked) {
-        operType = "Subtraction";
+        operType = "Subtract";
     } else if (document.getElementById("multpl").checked) {
-        operType = "Multiplication";
+        operType = "Multiply";
     } else if (document.getElementById("divide").checked) {
-        operType = "Division";
+        operType = "Divide";
     } else {
-        operType = "Addition";
+        operType = "Add";
     }
     let results = 0;
     //perform operation
     switch (operType) {
-        case ("Addition") :
+        case ("Add") :
             results = parseFloat(first) + parseFloat(second);
             break;
-        case ("Subtraction") :
+        case ("Subtract") :
             results = first - second;
             break;
-        case ("Multiplication") :
+        case ("Multiply") :
             results = first * second;
             break;
-        case ("Division") :
+        case ("Divide") :
             if (second == 0){
                 // display message - no 0
                 alert("Division by 0 is not allowed")
@@ -54,10 +55,8 @@ function Calculate() {
             }
     }
 
-    operType = operType.toUpperCase();
-    
     // display first, second, operation, results
-    document.getElementById("txtReslts").value = operType + " result is: " + results;
+    document.getElementById("txtReslts").value = operType + " " + first + " and " + second + " resulted in: " + results;
 
 }
 

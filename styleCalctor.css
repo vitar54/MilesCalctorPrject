@@ -58,6 +58,13 @@ h2 {
   font-size: medium;
 }
 
+.inpRadioStyle {
+  margin: 18px;
+  font-family: Arial;
+  font-style: normal;
+  font-size: medium;
+}
+
 .radioStyle {
   border-width: 2px;
   border-color: black;
@@ -70,21 +77,20 @@ h2 {
 #txtReslts {
   margin: 10px;
   background-color: #fff;
-  width: 350px;
+  width: 450px;
   font-family: Arial;
   font-style: normal;
-  font-size: large;
+  font-size: x-large;
 }
 
 #btnDoMath:focus {
   background-color: darkgreen;
 }
 
-input[type=radio]:checked + label {
-  font-weight: bold;
-  background-color: violet !important;
-  color: #dd1b4c;
+input[type="radio"]:checked+label {
+  font-weight: 600;
 }
+
 
 
 /*

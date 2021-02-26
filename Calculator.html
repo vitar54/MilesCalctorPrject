@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styleCalctor.css">
     <script src="Calctor.js"></script>
 </head>
-<body>
+<body onload="clearRes()">
     <div id="centerScreen" class="centered">
         <h2>Simple Calculator</h2>
         <div id="inptNumbers" class="divCntr">
@@ -16,18 +16,22 @@
             <input type="number" id="num2nd" name="secinput" class="inpStyle">
         </div>
         <div id="operSelector" class="divCntr">
-    <label for="add" class="radioStyle">  
-        <input id="add" type="radio" name="operation" value="opadd" checked width="70px">Add 
-    </label> 
-    <label for="subtr" class="radioStyle"> 
-        <input id="subtr" type="radio" name="operation" value="opsub">Subtract 
-    </label> 
-    <label for="multpl" class="radioStyle"> 
-        <input id="multpl" type="radio" name="operation" value="opmult">Multiply 
-    </label> 
-    <label for="divide" class="radioStyle">
-        <input id="divide" type="radio" name="operation" value="opdiv">Divide 
-    </label> 
+            <span>
+                <input id="add" type="radio" name="operation" value="opadd" checked width="70px">
+                <label for="add" class="inpRadioStyle"> Add </label>
+            </span> 
+            <span>
+                <input id="subtr" type="radio" name="operation" value="opsub">
+                <label for="subtr" class="inpRadioStyle"> Subtract </label> 
+            </span>
+            <span>
+                <input id="multpl" type="radio" name="operation" value="opmult">
+                <label for="multpl" class="inpRadioStyle"> Multiply </label>
+            </span>
+            <span>
+                <input id="divide" type="radio" name="operation" value="opdiv">
+                <label for="divide" class="inpRadioStyle"> Divide </label> 
+            </span> 
 
         </div>
         <div id="divButtons" class="divCntr">
